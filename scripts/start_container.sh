@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Pull the Docker image from Docker. Hub
+# Pull the Docker image from Docker Hub
 docker pull gsouravgg/simple-python-flask-app:latest
 
 # Run the Docker image as a container
