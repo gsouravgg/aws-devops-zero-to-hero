@@ -11,7 +11,7 @@ phases:
       python: 3.11
   pre_build:
     commands:
-      - echo "Installing dependencies..."
+      - echo "Installing dependencies.."
       - pip install -r day-13/simple-python-app/requirements.txt
   build:
     commands:
